@@ -1,0 +1,11 @@
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif;color:#1b2b31;background:#f6f8f9;line-height:1.6}
+a{color:#1F4E5F}header{background:#1F4E5F;color:#fff}header .w{display:flex;justify-content:space-between;align-items:center;padding:14px 20px}header a{color:#fff;text-decoration:none;margin-left:18px}
+.w{max-width:1040px;margin:0 auto;padding:0 20px}.hero{padding:56px 0 30px}.hero h1{font-size:2.4rem;line-height:1.2;margin:0 0 12px}.lead{font-size:1.15rem;color:#44575e}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px;margin:28px 0}.card{background:#fff;border-radius:14px;box-shadow:0 2px 10px #0001;overflow:hidden;display:flex;flex-direction:column}
+.card img{width:100%;display:block;border-bottom:1px solid #eee}.card .b{padding:18px;flex:1;display:flex;flex-direction:column}.card h3{margin:0 0 6px}.price{font-weight:700;font-size:1.3rem;color:#2E6B4F}
+.btn{display:inline-block;background:#E07A2E;color:#fff!important;padding:12px 22px;border-radius:10px;text-decoration:none;font-weight:700;border:0;cursor:pointer;font-size:1rem}.btn.alt{background:#fff;color:#1F4E5F!important;border:2px solid #1F4E5F}
+.row{display:flex;gap:10px;flex-wrap:wrap;margin-top:auto;padding-top:12px}section{padding:26px 0}.tool{background:#fff;border-radius:14px;padding:24px;box-shadow:0 2px 10px #0001}
+label{display:block;font-weight:600;margin:12px 0 4px}input,select{width:100%;padding:10px;border:1px solid #c9d3d6;border-radius:8px;font-size:1rem}.out{background:#E3F1EC;border-radius:10px;padding:16px;margin-top:16px;font-size:1.05rem}
+.two{display:grid;grid-template-columns:1fr 1fr;gap:28px}@media(max-width:760px){.two{grid-template-columns:1fr}.hero h1{font-size:1.8rem}}
+details{background:#fff;border-radius:10px;padding:14px 18px;margin:10px 0}summary{font-weight:600;cursor:pointer}footer{background:#14323d;color:#cfe;padding:30px 0;margin-top:40px;font-size:.92rem}footer a{color:#cfe;margin-right:16px}
+.badges{display:flex;gap:16px;flex-wrap:wrap;color:#44575e;font-size:.95rem}table{border-collapse:collapse;width:100%}td,th{border-bottom:1px solid #e3e8ea;padding:6px;text-align:left}
